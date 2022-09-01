@@ -1,12 +1,17 @@
 
 import './css/App.css';
-
+import Body from './Body/Body';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"> app
-      </header>
+  
+    <div className="">
+      {/* <header className="App-header">
+      <Body />
+      </header> */}
+      <Body />
     </div>
+    
+    
   );
 }
 
